@@ -11,7 +11,7 @@ public class PublisherController {
     PublisherService publisherService;
 
     @PostMapping("/produce")
-    public void produce(@RequestBody String message) {
+    public void produce(@RequestParam String message) {
         publisherService.produce(message);
     }
 

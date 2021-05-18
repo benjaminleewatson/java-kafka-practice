@@ -12,5 +12,6 @@ public class PublisherService {
 
     public void produce(String message) {
         template.send("practiceTopic", message);
+        System.out.println("sending message: " + message);
     }
 }

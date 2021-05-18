@@ -1,0 +1,4 @@
+publisher/Application.class
+publisher/configuration/PublisherConfiguration.class
+publisher/service/PublisherService.class
+publisher/controller/PublisherController.class
