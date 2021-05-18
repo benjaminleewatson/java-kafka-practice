@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>java.kafka.practice</groupId>
-    <artifactId>publisher-service</artifactId>
+    <artifactId>subscriber-service</artifactId>
 
-    <name>Publisher Service</name>
-    <description>A service that publishes events to a kafka queue</description>
+    <name>Subscriber Service</name>
+    <description>A service that subcribes to the events of a kafka queue</description>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
